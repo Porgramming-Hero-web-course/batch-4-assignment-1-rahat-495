@@ -23,9 +23,3 @@ The `instanceof` operator is particularly helpful when working with objects crea
 ### 3. Custom Type Guards
 
 Sometimes, the built-in type guards like `typeof` and `instanceof` aren’t enough, especially with complex objects or custom types. In these cases, you can create your own type guard function, which returns a `boolean` to indicate whether an object matches a specific type. Custom type guards are especially useful for ensuring data structures adhere to expected shapes, helping you avoid errors in complex applications.
-
-## Why Use Type Guards?
-
-Type guards make TypeScript code safer and more predictable. They allow developers to leverage TypeScript’s type-checking to prevent potential runtime errors, making code both more robust and easier to debug. By narrowing down variable types, developers can confidently apply operations that are safe and relevant to the specific data type, resulting in cleaner, more maintainable code.
-
-In conclusion, type guards are essential in TypeScript for handling variables with multiple potential types. They bring greater control, allowing us to harness the full potential of TypeScript’s static typing while managing complex data scenarios more effectively.
